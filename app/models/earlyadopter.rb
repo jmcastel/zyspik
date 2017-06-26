@@ -1,0 +1,2 @@
+class Earlyadopter < ApplicationRecord
+end

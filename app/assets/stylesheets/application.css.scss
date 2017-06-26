@@ -1,0 +1,34 @@
+
+
+@import "bootstrap";
+@import "font-awesome";
+
+
+
+
+$backgroundNav : #FFFFFF;
+$backgroundBody : #34495E;
+$main_color : #FD0E48;
+/*$main_color : #2EF2FF;*/
+
+
+body {
+	background: $backgroundBody;
+	height: 100%;
+
+
+}
+
+
+.jumbotron {
+	margin-top: 0px;
+	
+	background-color: $backgroundBody;
+	.h1{
+		color: red;
+		
+	}
+	.h3{
+		color: white;
+	}
+}
