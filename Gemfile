@@ -18,7 +18,8 @@ gem 'puma', '~> 3.7'
 gem 'uglifier', '>= 1.3.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
-gem 'bootstrap', '~> 4.0.0.alpha6'
+gem 'bootstrap'
+
 gem 'sass-rails', '~> 5.0', '>= 5.0.6'
 gem 'haml'
 gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.2'
