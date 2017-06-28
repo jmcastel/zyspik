@@ -6,16 +6,16 @@
 
 	
 		
-	.h1 Zyspik
-	%br
-	.h3 Help us to kill the mail !
-
+	= image_tag  "logo.png"
 	%br
 	%br
 	
 
 	%br
 	%br
+	
+
+
 
 
 	= simple_form_for(:earlyadopter, :html => { :class => 'form-horizontal' })   do |f|
@@ -30,9 +30,12 @@
 			= f.input_field :email, placeholder: 'Email',input_html: { class: 'form-horizontal',:maxlength => 40, :size => 40}
 			%br
 			%br
-			= f.button :submit, 'Keep me updated', class: "btn btn-primary", data: { disable_with: "Please wait..." }
+			= f.button :submit, 'Kill it !', class: "btn btn-primary", data: { disable_with: "Please wait..." }
 					
+	%br
 
-
-
+	.footer.h6 
+		Made with 
+		= fa_icon "heart" 
+		in corsica
 	
